@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <style>
+      /* Button Formatting */
+        .btn-group button {
+          background-color: #04AA6D; /* Green background */
+          border: 1px solid green; /* Green border */
+          color: white; /* White text */
+          padding: 10px 24px; /* Some padding */
+          cursor: pointer; /* Pointer/hand icon */
+          float: left; /* Float the buttons side by side */
+        }
+        
+        /* Clear floats (clearfix hack) */
+        .btn-group:after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .btn-group button:not(:last-child) {
+          border-right: none; /* Prevent double borders */
+        }
+        
+        /* Add a background color on hover */
+        .btn-group button:hover {
+          background-color: #3e8e41;
+        }
+
+        /* Table formatting */
+        .right {
+          text-align: right;
+          margin-right: 1em;
+        }
+
+        .left {
+          text-align: left;
+          margin-left: 1em;
+        }
+
+        th, td {
+          border: 1px solid black;
+          border-radius: 10px;
+          text-align: center;
+        }
+        </style>
+
+<body>
+
+  <div class="btn-group" style="width:100%">
+    <button style="width:25%" onclick="location.href='/index'" type="button">Home</button>
+    <button style="width:25%">Code Stuff</button>
+    <button style="width:25%" onclick="location.href='/japan'" type="button">Japan</button>
+    <button style="width:25%" onclick="location.href='/kbdiary'" type="button">KB Diary</button>
+  </div>
+
+<h1>Japan Trip</h1>
+<p>This page contains details about our upcoming planned trip to Japan</p>
+
+<h1> Itinerary </h1>
+
+<h2> Day One: Flight</h2>
+<h3> Date: Thursday 13th March 2025 (to confirm)</h3>
+<h4> 6:40</h4>
+<p> Leave for airport. - Gives 2 hours to drive/park, 3 hours for luggage, security</p>
+<h4> 11:40</h4>
+<p> Flight to China (PVG Shanghai Pudong) departs - 11 hours duration</p>
+<h4> 06:45 China Time (22:45 home time)</h4>
+<p> Change flights in China. 3 hour connection</p>
+
+<h2> Day Two: Flight cont.</h2>
+<h3> Date: Friday 14th March 2025 (to confirm)</h3>
+<h4> 09:40 China Time (01:45 home time)</h4>
+<p> Flight to Japan (NRT Tokyo Narita) departs - 3 hours</p>
+<h4> 13:40 Japan Time (4:40 home time)</h4>
+<p> Arrive in Japan. Customs + collecting luggage - Approx 1 hour. (Do online customs forms beforehand for faster process)</p>
+<h4> 14:40 Japan Time (5:40 home time)</h4>
+<p> Collect sim card/pocket wifi if needed. Leave Airport. Take train to hotel. Approx 1 hour rail to central Tokyo.</p>
+<h4> 15:40 Japan Time (6:40 home time)</h4>
+<p> Arrive at hotel (24 hours after leaving). Explore local area, get dinner. Sleep early to make most of next day</p>
+
+<h2> Day Three: Travel to Kyoto</h2>
+<h3> Date: Saturday 15th March 2025 (to confirm)</h3>
+<h4> 6:00 Japan Time</h4>
+<p> Go out for breakfast</p>
+<h4> 7:00 Japan Time</h4>
+<p> Tokyo -> Kyoto Bullet Train. 2 hours</p>
+<h4> 9:00 Japan Time</h4>
+<p> Travel to hotel. Drop things off. 1 hour?</p>
+<h4> 10:00 Japan Time</h4>
+<p> Travel to Fushimi Inari Taisha. 1 hour?</p>
+<h4> 11:00 Japan Time</h4>
+<p> Climb Fushimi Inari Taisha. 3 hours</p>
+<h4> 14:00 Japan Time</h4>
+<p> Travel to Kinkaku Ji Temple - The Golden Pavilion. 1 hours</p>
+<h4> 15:00 Japan Time</h4>
+<p> Visit temple. 30 mins</p>
+<h4> 15:30 Japan Time</h4>
+<p> Travel to Arashiyama Bamboo Forest. 1 hour</p>
+<h4> 16:30 Japan Time</h4>
+<p> Arashiyama Bamboo Forest. 1 hour</p>
+
+<h2> Day Four: Kyoto II</h2>
+<h3> Date: Sunday 16th March 2025 (to confirm)</h3>
+<p> Leaving this spare as day three is very packed and there will be more stuff we want to do in Kyoto like nintendo store</p>
+
+<h2> Day Five: Nara</h2>
+<h3> Date: Monday 17th March 2025 (to confirm)</h3>
+<h4> 7:00 Japan Time</h4>
+<p> Go out for breakfast & travel to Kyoto station. Use luggage locker at station.</p>
+<h4> 8:00 Japan Time</h4>
+<p> Train to Nara. Approx. 1 hour.</p>
+
+<h1> Money / Budgeting</h1>
+<p> Table of money stuff</p>
+<table style="width:25%">
+  <tr>
+    <th>Activity</th>
+    <th>Price</th>
+    <th>Data Source</th>
+    <th>Picture</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Flights</td>
+    <td>£500-£600</td>
+    <td>Flightsradar link</td>
+    <td>Picture URL</td>
+    <td>Any further info</td>
+  </tr>
+  <tr>
+    <td>Accomodation (Kyoto)</td>
+    <td>£X</td>
+    <td>Hotel link</td>
+    <td>Picture URL</td>
+    <td>Any further info</td>
+  </tr>
+  <tr>
+    <td>Activity #1 (Kyoto)</td>
+    <td>£X</td>
+    <td>Whatever it is</td>
+    <td>Picture URL</td>
+    <td>Any further info</td>
+  </tr>
+  <tr>
+    <td>Bullet Train (Kyoto -> Tokyo)</td>
+    <td>£116</td>
+    <td>Rail link</td>
+    <td>Picture URL</td>
+    <td>Any further info</td>
+  </tr>
+
+</table>
+
+</body>
+</html>

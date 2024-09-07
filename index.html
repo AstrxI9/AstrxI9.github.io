@@ -1,7 +1,42 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        .btn-group button {
+          background-color: #04AA6D; /* Green background */
+          border: 1px solid green; /* Green border */
+          color: white; /* White text */
+          padding: 10px 24px; /* Some padding */
+          cursor: pointer; /* Pointer/hand icon */
+          float: left; /* Float the buttons side by side */
+        }
+        
+        /* Clear floats (clearfix hack) */
+        .btn-group:after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .btn-group button:not(:last-child) {
+          border-right: none; /* Prevent double borders */
+        }
+        
+        /* Add a background color on hover */
+        .btn-group button:hover {
+          background-color: #3e8e41;
+        }
+        </style>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+    <div class="btn-group" style="width:100%">
+        <button style="width:25%" onclick="location.href='/index'" type="button">Home</button>
+        <button style="width:25%">Code Stuff</button>
+        <button style="width:25%" onclick="location.href='/japan'" type="button">Japan</button>
+        <button style="width:25%">Spare Button</button>
+      </div>
+
+<h1>Home Page</h1>
+<p>This is the home page.</p>
 </body>
 </html>
