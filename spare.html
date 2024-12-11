@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <style>
+      /* Button Formatting */
         .btn-group button {
           background-color: #04AA6D; /* Green background */
           border: 1px solid green; /* Green border */
@@ -25,18 +26,32 @@
         .btn-group button:hover {
           background-color: #3e8e41;
         }
+
+        /* Table formatting */
+        .right {
+          text-align: right;
+          margin-right: 1em;
+        }
+
+        .left {
+          text-align: left;
+          margin-left: 1em;
+        }
+
+        th, td {
+          border: 1px solid black;
+          border-radius: 10px;
+          text-align: center;
+        }
         </style>
 
 <body>
 
-    <div class="btn-group" style="width:100%">
-        <button style="width:25%" onclick="location.href='/index'" type="button">Home</button>
-        <button style="width:25%">Code Stuff</button>
-        <button style="width:25%" onclick="location.href='/japan'" type="button">Japan</button>
-        <button style="width:25%" onclick="location.href='/spare'" type="button">Spare Page</button>
-      </div>
+  <div class="btn-group" style="width:100%">
+    <button style="width:25%" onclick="location.href='/index'" type="button">Home</button>
+    <button style="width:25%">Code Stuff</button>
+    <button style="width:25%" onclick="location.href='/japan'" type="button">Japan</button>
+    <button style="width:25%" onclick="location.href='/spare'" type="button">Spare Page</button>
+  </div>
 
-<h1>Home Page</h1>
-<p>This is the home page.</p>
-</body>
-</html>
+<h1>Spare Page</h1>
