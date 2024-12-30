@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <style>
+      /* Button Formatting */
+        .btn-group button {
+          background-color: #04AA6D; /* Green background */
+          border: 1px solid green; /* Green border */
+          color: white; /* White text */
+          padding: 10px 24px; /* Some padding */
+          cursor: pointer; /* Pointer/hand icon */
+          float: left; /* Float the buttons side by side */
+        }
+        
+        /* Clear floats (clearfix hack) */
+        .btn-group:after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .btn-group button:not(:last-child) {
+          border-right: none; /* Prevent double borders */
+        }
+        
+        /* Add a background color on hover */
+        .btn-group button:hover {
+          background-color: #3e8e41;
+        }
+
+        /* Table formatting */
+        .right {
+          text-align: right;
+          margin-right: 1em;
+        }
+
+        .left {
+          text-align: left;
+          margin-left: 1em;
+        }
+
+        th, td {
+          border: 1px solid black;
+          border-radius: 10px;
+          text-align: center;
+        }
+        </style>
+
+<body>
+
+  <div class="btn-group" style="width:100%">
+    <button style="width:25%" onclick="location.href='/index'" type="button">Home</button>
+    <button style="width:25%">Code Stuff</button>
+    <button style="width:25%" onclick="location.href='/japan'" type="button">Japan</button>
+    <button style="width:25%" onclick="location.href='/75hard'" type="button">75 Hard</button>
+    <button style="width:25%" onclick="location.href='/CS2Investing'" type="button">CS2 Investments</button>
+  </div>
+
+<h1>2025</h1>
+
+<h2>75 Hard</h2>
+<ul>
+<li> No sugary drinks or food</li>
+<li> Walk + Run/Gym Workout Every Day</li>
+<li> 3L Water Daily</li>
+<li> 30 mins + Language Learning Daily</li>
+<li> Daily Progress Picture</li>
+</ul>
+
+<h3> Day 1 </h3>
+<uL>
+  <li> Workouts: 6KM Run, 200 Situps</li>
+  <li> L Water</li>
+  <li> 30 Minutes Penguin Russian, 30 Minutes Memrise Russian</li>
+</uL>
